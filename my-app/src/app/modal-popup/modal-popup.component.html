@@ -1,0 +1,48 @@
+<h1 mat-dialog-title>Edit Item Details </h1>
+<div mat-dialog-content>
+  <form name="editForm"  class=" bg-form background-full">
+    <div class="row ">
+      <div class="form-group ">
+         <p>
+           <label for="position" class="control-label"> position</label>
+           <input type="text" class="form-control"    id="position" name="position" readonly>
+         </p>
+         </div>
+         </div>
+    <div class="row ">
+        <div class="form-group ">
+           <p>
+             <label for="name" class="control-label"> name</label>
+             <input type="text" class="form-control"    id="name" name="name">
+           </p>
+           </div>
+           </div>
+           
+   
+           <div class="row">
+               <div class="form-group ">
+           <p>
+             <label for="description" class="control-label"> Description</label>
+             <input type="text"class="form-control"   id="description" name="description">
+           </p>
+           </div>
+           </div>
+           <div class="row">
+            <div class="form-group ">
+        <p>
+          <label for="price" class="control-label"> Price</label>
+          <input type="text"class="form-control"   id="price" name="price">
+        </p>
+        </div>
+        </div>
+   
+         
+         </form>
+  
+</div>
+<div mat-dialog-actions>
+  
+             <button  type="submit" (click)="update()">Update</button>
+         
+  <button mat-button (click)="onNoClick()">Cancel</button>
+</div>

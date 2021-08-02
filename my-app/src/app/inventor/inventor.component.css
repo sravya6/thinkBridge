@@ -1,0 +1,14 @@
+table {
+    width: 100%;
+  }
+  .editItems{
+      background:url('../../assets/edit.png') no-repeat;
+      cursor:pointer;
+      width:24px;
+      height:24px;
+      margin-top:4px;
+  }
+  .deleteItems{
+      background:url('../../assets/delete.png') no-repeat;
+      cursor:pointer;
+  }
